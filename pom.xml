@@ -10,10 +10,11 @@
     <maven.compiler.target>7</maven.compiler.target>
     <sonar.projectKey>org.sonarqube:jacoco</sonar.projectKey>
     <sonar.projectName>devops</sonar.projectName>
-    <sonar.projectVersion>${yearMonth}</sonar.projectVersion>
     <sonar.language>java</sonar.language>
     <sonar.sourceEncoding>UTF-8</sonar.sourceEncoding>
     <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+	<sonar.jacoco.reportPath>target/jacoco.exec</sonar.jacoco.reportPath>
+	<sonar.sources>src</sonar.source>
   </properties>
 
   <dependencies>
